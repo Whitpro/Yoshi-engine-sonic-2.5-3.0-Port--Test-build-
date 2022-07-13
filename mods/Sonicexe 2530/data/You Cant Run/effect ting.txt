@@ -1,0 +1,20 @@
+var coolStaticThing:FlxSprite;
+function onGenertateStaticArrows() {
+    coolStaticThing.frames = Paths.getSparrowAtlas('theFilePath'); // REPLACE 'theFilePath' to your file path lol
+    coolStaticThing.animation.addByPrefix('nameAnythingHere', 'nameFromXML', 24, false); // false means it doesn't loop, set it to true if you want to loop
+    coolStaticThing.animation.play('nameAnythingHere');
+    coolStaticThing.cameras = [PlayState.camHUD];
+    coolStaticThing.visible = false;
+    PlayState.add(coolStaticThing);
+}
+
+function beatHit(curBeat) {
+    switch(curBeat) {
+      case 1 || 10:
+        coolStaticThing.visible = true;
+        coolStaticThing.animation.play('nameAnythingHere');
+        coolStaticThing.animation.finishCallback = function(animName:String) {
+        coolStaticThing.visible = false;
+        }
+    }
+}

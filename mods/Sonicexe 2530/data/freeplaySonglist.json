@@ -1,0 +1,26 @@
+{
+	"songs": [
+		{
+			"displayName": null,
+			"difficulties": [
+				"Easy",
+				"Normal",
+				"Hard"
+			],
+			"char": "Sonicexe",
+			"color": "#0719DA",
+			"name": "Too slow Encore",
+			"bpm": 150
+		},
+		{
+			"difficulties": [
+				"Hard"
+			],
+			"displayName": null,
+			"char": "sonicycrmad",
+			"bpm": 150,
+			"name": "You Cant Run",
+			"color": "#0E1058"
+		}
+	]
+}

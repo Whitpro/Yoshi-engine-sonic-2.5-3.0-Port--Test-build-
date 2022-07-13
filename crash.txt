@@ -1,0 +1,14 @@
+An error occured !
+YoshiCrafter Engine ver. 2.0.0 BETA
+
+Null Object Reference
+ 
+Called from charter.YoshiCrafterCharter.addSectionTab (charter/YoshiCrafterCharter.hx line 402)
+Called from flixel.ui.FlxTypedButton.onUpHandler (flixel/ui/FlxButton.hx line 521)
+Called from flixel.addons.ui.FlxUITypedButton.onUpHandler (flixel/addons/ui/FlxUITypedButton.hx line 1172)
+Called from flixel.addons.ui.FlxUIButton.onUpHandler (flixel/addons/ui/FlxUIButton.hx line 362)
+Called from flixel.ui.FlxTypedButton.onUpEventListener (flixel/ui/FlxButton.hx line 507)
+Called from openfl.events.EventDispatcher.__dispatchEvent (openfl/events/EventDispatcher.hx line 402)
+Called from openfl.display.DisplayObject.__dispatch (openfl/display/DisplayObject.hx line 1399)
+
+The engine is still in it's early stages, so if you want to report that bug, go ahead and create an Issue on the GitHub page !

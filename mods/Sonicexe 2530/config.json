@@ -1,0 +1,33 @@
+{
+	"titleBarName": "Friday Night Funkin' - Sonic.Exe unfinished build",
+	"intro": {
+		"authors": [
+			"ninjamuffin99",
+			"phantomArcade",
+			"kawaisprite",
+			"evilsk8er"
+		],
+		"gameName": [
+			"Friday Night Funkin'",
+			"YoshiCrafter",
+			"Engine"
+		],
+		"newgrounds": "newgrounds",
+		"bpm": 102,
+		"assoc": [
+			"In association",
+			"with"
+		],
+		"present": "present"
+	},
+	"skinnableBFs": [],
+	"skinnableGFs": [],
+	"GFskins": [],
+	"keyNumbers": [
+		4
+	],
+	"BFskins": [],
+	"name": "Sonic.exe 2.5/3.0",
+	"locked": false,
+	"description": "(No description)"
+}
